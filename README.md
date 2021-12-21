@@ -25,5 +25,16 @@ We concluded that this data set has k=4 clusters. Therefore, we resumed our anal
 ### Visualizing Unsupervised ML 
 see below 3-D scatter plot for 4 classes
 ![image](https://user-images.githubusercontent.com/86033316/146880415-70164dd7-e104-465c-bed3-a776c66738f9.png)
-For illustration purposes, we hovered over LiteCoinCash to display PCs.
+For illustration purposes, we hovered over LiteCoinCash to display Principal Components.
 
+### 2D-Scatter plot with clusters
+![image](https://user-images.githubusercontent.com/86033316/146881483-c4f80d57-2b05-4f70-a44a-eb040c10cf3d.png)
+Above 2-D scatter plot is created by using the PCA algorithm to reduce the crytocurrencies dimensions to two principal components.
+From this plot, we can clearly see that "BitTorrent" which is the only cryptocurreny in class"2" seem to be an outlier or anomoly with only 1 total coin mined.
+
+## Summary
+
+We have identified the classifications of 532 cryptocurrencies based on their "Algorithm" and ""Proof Type". We realized that there is only one coin categorized in Class 2 which was BitTorrent. This groping can help investors understand different cryptocurrencies types and algorithms.
+### Future projects
+
+We can extract a data bases that contains the price range and volatilities of these cryptocurrencies along with their trade volumes to describe the investment risks associated with each coin.
